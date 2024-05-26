@@ -1,0 +1,6 @@
+selenium==4.1.0
+#pip install selenium==4.1.0
+appium-python-client==2.7.1
+#pip install appium-python-client==2.7.1
+pytest==6.2.5
+#pip install pytest==6.2.5
