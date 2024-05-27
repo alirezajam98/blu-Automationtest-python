@@ -1,4 +1,5 @@
 import pytest
+import yaml
 
 from pages.HomePage import HomePage
 from pages.Login.Login_page import LoginPage
@@ -7,8 +8,21 @@ from utils.driver import create_driver
 from selenium.common.exceptions import NoSuchElementException
 
 
-@pytest.mark.login
-def test_login_with_biometric(driver):
+def load_config():
+    with open('config.yml', 'r') as file:
+        config = yaml.safe_load(file)
+    return config
+
+
+config = load_config()
+
+
+@pytest.mark.parametrize("device_name", config['desired_caps'].keys())
+def test_login_with_biometric(device_name):
+    desired_caps = config['desired_caps'][device_name]
+    # ایجاد درایور با تنظیمات مربوط به دستگاه مورد نظر
+    driver = create_driver(device_name)
+
     login_page = LoginPage(driver)
 
     # وارد کردن یوزرنیم و پسورد
@@ -43,3 +57,6 @@ def test_login_with_biometric(driver):
     # شما باید اینجا ادامه صفحه بعد از بومتریک را اعتبارسنجی کنید، برای مثال:
     # assert some_page.is_displayed(), "Some page should be displayed after clicking 'Not Now' button"
     print("Test completed successfully")
+
+    # پس از اتمام تست، بستن درایور
+    driver.quit()
