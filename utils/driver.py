@@ -1,19 +1,20 @@
+import yaml
 from appium import webdriver
 
 
 def create_driver():
-    desired_caps = {
-        'platformName': 'Android',
-        'deviceName': 'S23 Ultra',
-        'udid': 'R5CW517VZ9F',
-        'platformVersion': '14',
-        'automationName': 'UiAutomator2',
-        'appPackage': 'com.samanpr.blu.dev',
-        'appActivity': 'com.samanpr.blu.presentation.BaseActivity',
-    }
-    driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
-    driver.implicitly_wait(10)
+    # خواندن پیکربندی‌ها از فایل config.yml
+    with open('config.yml', 'r') as file:
+        config = yaml.safe_load(file)
+
+    desired_caps = config['desired_caps']
+    server_url = config['server_url']
+    implicit_wait = config['implicit_wait']
+
+    driver = webdriver.Remote(server_url, desired_caps)
+    driver.implicitly_wait(implicit_wait)
     return driver
 
 
-create_driver()
+if __name__ == "__main__":
+    create_driver()
