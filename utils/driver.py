@@ -17,9 +17,3 @@ def create_driver(device_name):
     driver = webdriver.Remote(server_url, desired_caps)
     driver.implicitly_wait(implicit_wait)
     return driver
-
-if __name__ == "__main__":
-    # فراخوانی تابع create_driver با ارسال نام دستگاه مورد نظر
-    create_driver('A23s')
-    create_driver('A10s')
-

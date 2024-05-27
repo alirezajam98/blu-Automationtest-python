@@ -1,4 +1,5 @@
 import pytest
+import yaml
 
 from pages.HomePage import HomePage
 from pages.Login.Login_page import LoginPage
@@ -7,10 +8,20 @@ from utils.driver import create_driver
 from selenium.common.exceptions import NoSuchElementException
 
 
-@pytest.mark.login
-def test_login_with_biometric():
-    # ایجاد درایور با استفاده از تنظیمات مربوط به دستگاه A23s
-    driver = create_driver('A10s')
+def load_config():
+    with open('config.yml', 'r') as file:
+        config = yaml.safe_load(file)
+    return config
+
+
+config = load_config()
+
+
+@pytest.mark.parametrize("device_name", config['desired_caps'].keys())
+def test_login_with_biometric(device_name):
+    desired_caps = config['desired_caps'][device_name]
+    # ایجاد درایور با تنظیمات مربوط به دستگاه مورد نظر
+    driver = create_driver(device_name)
 
     login_page = LoginPage(driver)
 

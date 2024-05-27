@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80c486c1-8cd6-4c7c-a673-7e1a3edfdd34" name="Changes" comment="create base of project">
-      <change afterPath="$PROJECT_DIR$/devices.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run_tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devices.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/driver.py" afterDir="false" />
     </list>
@@ -86,7 +86,7 @@
       <updated>1716279853775</updated>
       <workItem from="1716279858205" duration="2014000" />
       <workItem from="1716615884149" duration="15053000" />
-      <workItem from="1716799906441" duration="2072000" />
+      <workItem from="1716799906441" duration="7226000" />
     </task>
     <task id="LOCAL-00001" summary="create base of project">
       <option name="closed" value="true" />
