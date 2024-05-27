@@ -1,0 +1,11 @@
+desired_caps:
+  A23s:
+    platformName: 'Android'
+    deviceName: 'A23s'
+    udid: 'RF8R30ZNAXK'
+    platformVersion: '12'
+    automationName: 'UiAutomator2'
+    appPackage: 'com.samanpr.blu.dev'
+    appActivity: 'com.samanpr.blu.presentation.BaseActivity'
+server_url: 'http://127.0.0.1:4723/wd/hub'
+implicit_wait: 10
