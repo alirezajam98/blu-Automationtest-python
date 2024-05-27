@@ -8,7 +8,10 @@ from selenium.common.exceptions import NoSuchElementException
 
 
 @pytest.mark.login
-def test_login_with_biometric(driver):
+def test_login_with_biometric():
+    # ایجاد درایور با استفاده از تنظیمات مربوط به دستگاه A23s
+    driver = create_driver('A10s')
+
     login_page = LoginPage(driver)
 
     # وارد کردن یوزرنیم و پسورد
@@ -43,3 +46,6 @@ def test_login_with_biometric(driver):
     # شما باید اینجا ادامه صفحه بعد از بومتریک را اعتبارسنجی کنید، برای مثال:
     # assert some_page.is_displayed(), "Some page should be displayed after clicking 'Not Now' button"
     print("Test completed successfully")
+
+    # پس از اتمام تست، بستن درایور
+    driver.quit()
