@@ -1,0 +1,117 @@
+2024-05-27 17:41:03,433 - test_login - INFO - Running test on device: A23s
+2024-05-27 17:41:03,433 - test_login - INFO - Running test on device: A10s
+2024-05-27 17:41:18,202 - test_login - INFO - Entered username and password on device: A23s
+2024-05-27 17:41:18,882 - test_login - INFO - Entered username and password on device: A10s
+2024-05-27 17:41:19,553 - test_login - INFO - Clicked on login button on device: A23s
+2024-05-27 17:41:20,471 - test_login - INFO - Clicked on login button on device: A10s
+2024-05-27 17:41:21,010 - test_login - INFO - Biometric page displayed after login on device: A23s
+2024-05-27 17:41:21,790 - test_login - INFO - Clicked on 'Not Now' button on device: A23s
+2024-05-27 17:41:32,256 - test_login - INFO - Verified welcome message on device: A23s
+2024-05-27 17:41:32,927 - test_login - INFO - Test completed on device: A23s
+2024-05-27 17:41:36,353 - test_login - ERROR - Error during biometric page validation on device: A10s - Message: An element could not be located on the page using the given search parameters.
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\qa.test\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\qa.test\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (C:\Users\qa.test\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:53:10)
+2024-05-27 17:41:37,124 - test_login - INFO - Screenshot saved to screenshots\biometric_error_A10s.png
+2024-05-27 17:41:56,901 - test_login - ERROR - Error during subsequent steps on device: A10s - Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\qa.test\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\qa.test\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (C:\Users\qa.test\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:53:10)
+2024-05-27 17:41:57,526 - test_login - INFO - Screenshot saved to screenshots\subsequent_steps_error_A10s.png
+2024-05-27 17:41:58,173 - test_login - INFO - Test completed on device: A10s
+2024-05-27 17:44:32,261 - test_login - INFO - Running test on device: A23s
+2024-05-27 17:44:32,261 - test_login - INFO - Running test on device: A10s
+2024-05-27 17:44:46,502 - test_login - INFO - Entered username and password on device: A23s
+2024-05-27 17:44:47,905 - test_login - INFO - Clicked on login button on device: A23s
+2024-05-27 17:44:49,895 - test_login - INFO - Entered username and password on device: A10s
+2024-05-27 17:44:51,037 - test_login - INFO - Biometric page displayed after login on device: A23s
+2024-05-27 17:44:51,828 - test_login - INFO - Clicked on 'Not Now' button on device: A23s
+2024-05-27 17:44:51,923 - test_login - INFO - Clicked on login button on device: A10s
+2024-05-27 17:45:02,014 - test_login - ERROR - Error during biometric page validation on device: A10s - Message: An element could not be located on the page using the given search parameters.
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\qa.test\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\qa.test\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (C:\Users\qa.test\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:53:10)
+2024-05-27 17:45:02,168 - test_login - INFO - Verified welcome message on device: A23s
+2024-05-27 17:45:02,638 - test_login - INFO - Screenshot saved to screenshots\biometric_error_A10s.png
+2024-05-27 17:45:02,823 - test_login - INFO - Test completed on device: A23s
+2024-05-27 17:45:13,227 - test_login - ERROR - Error during subsequent steps on device: A10s - Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\qa.test\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\qa.test\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (C:\Users\qa.test\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:53:10)
+2024-05-27 17:45:13,847 - test_login - INFO - Screenshot saved to screenshots\subsequent_steps_error_A10s.png
+2024-05-27 17:45:14,509 - test_login - INFO - Test completed on device: A10s
+2024-05-27 17:49:37,082 - test_login - INFO - Running test on device: A23s
+2024-05-27 17:49:51,661 - test_login - INFO - Entered username and password on device: A23s
+2024-05-27 17:49:53,034 - test_login - INFO - Clicked on login button on device: A23s
+2024-05-27 17:49:53,867 - test_login - INFO - Entered username and password on device: A10s
+2024-05-27 17:49:54,585 - test_login - INFO - Biometric page displayed after login on device: A23s
+2024-05-27 17:49:55,387 - test_login - INFO - Clicked on 'Not Now' button on device: A23s
+2024-05-27 17:49:55,842 - test_login - INFO - Clicked on login button on device: A10s
+2024-05-27 17:50:02,838 - test_login - INFO - Biometric page displayed after login on device: A10s
+2024-05-27 17:50:03,609 - test_login - INFO - Clicked on 'Not Now' button on device: A10s
+2024-05-27 17:50:06,070 - test_login - INFO - Verified welcome message on device: A23s
+2024-05-27 17:50:06,723 - test_login - INFO - Test completed on device: A23s
+2024-05-27 17:50:15,528 - test_login - INFO - Verified welcome message on device: A10s
+2024-05-27 17:50:16,154 - test_login - INFO - Test completed on device: A10s
+2024-05-27 17:51:04,554 - test_login - INFO - Running test on device: A10s
+2024-05-27 17:51:18,671 - test_login - INFO - Entered username and password on device: A23s
+2024-05-27 17:51:20,021 - test_login - INFO - Clicked on login button on device: A23s
+2024-05-27 17:51:21,440 - test_login - INFO - Biometric page displayed after login on device: A23s
+2024-05-27 17:51:22,157 - test_login - INFO - Entered username and password on device: A10s
+2024-05-27 17:51:22,242 - test_login - INFO - Clicked on 'Not Now' button on device: A23s
+2024-05-27 17:51:24,233 - test_login - INFO - Clicked on login button on device: A10s
+2024-05-27 17:51:32,826 - test_login - INFO - Verified welcome message on device: A23s
+2024-05-27 17:51:33,482 - test_login - INFO - Test completed on device: A23s
+2024-05-27 17:51:34,307 - test_login - ERROR - Error during biometric page validation on device: A10s - Message: An element could not be located on the page using the given search parameters.
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\qa.test\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\qa.test\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (C:\Users\qa.test\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:53:10)
+2024-05-27 17:51:34,970 - test_login - INFO - Screenshot saved to screenshots\biometric_error_A10s.png
+2024-05-27 17:51:45,550 - test_login - ERROR - Error during subsequent steps on device: A10s - Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\qa.test\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\qa.test\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (C:\Users\qa.test\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:53:10)
+2024-05-27 17:51:46,197 - test_login - INFO - Screenshot saved to screenshots\subsequent_steps_error_A10s.png
+2024-05-27 17:51:46,826 - test_login - INFO - Test completed on device: A10s
+2024-05-27 18:00:18,072 - test_login - INFO - Running test on device: A23s
+2024-05-27 18:00:32,090 - test_login - INFO - Entered username and password on device: A23s
+2024-05-27 18:00:33,478 - test_login - INFO - Clicked on login button on device: A23s
+2024-05-27 18:00:34,944 - test_login - INFO - Biometric page displayed after login on device: A23s
+2024-05-27 18:00:35,715 - test_login - INFO - Clicked on 'Not Now' button on device: A23s
+2024-05-27 18:00:38,585 - test_login - INFO - Entered username and password on device: A10s
+2024-05-27 18:00:41,045 - test_login - INFO - Clicked on login button on device: A10s
+2024-05-27 18:00:46,243 - test_login - INFO - Verified welcome message on device: A23s
+2024-05-27 18:00:46,873 - test_login - INFO - Test completed on device: A23s
+2024-05-27 18:00:51,125 - test_login - ERROR - Error during login steps on device: A10s - Message: An element could not be located on the page using the given search parameters.
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\qa.test\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\qa.test\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (C:\Users\qa.test\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:53:10)
+2024-05-27 18:00:51,809 - test_login - INFO - Screenshot saved to screenshots\login_error_A10s.png
