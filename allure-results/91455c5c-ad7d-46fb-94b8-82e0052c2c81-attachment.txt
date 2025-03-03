@@ -1,0 +1,15 @@
+INFO:utils.utils:No notification permission modal displayed, continuing.
+INFO:utils.utils:کلیک روی دکمه 'حساب کاربری دارم'...
+INFO:utils.utils:No Create Account button displayed, continuing.
+INFO:utils.utils:No notification permission modal displayed, continuing.
+INFO:utils.utils:No biometric_page permission modal displayed, continuing.
+INFO:utils.utils:Clicked on 'Allow' button for notification permission.
+INFO:utils.utils:Dashboard page displayed successfully.
+INFO:utils.config:ورود به صفحه هاب...
+INFO:utils.config:وارد صفحه هاب شد.
+INFO:utils.config:اسکرول برای باز کردن صفحه اسکن...
+INFO:utils.config:وارد صفحه اسکن شد.
+INFO:utils.config:کلیک روی تایید دسترسی این بخش به دوربین...
+INFO:utils.config:روی تایید دسترسی دوربین کلیک شد.
+INFO:utils.utils:متن صفحه qr: اسکن کد QR
+ERROR:utils.utils:متن دکمه کد qr من - Expected 'کد QR من', but got 'None'

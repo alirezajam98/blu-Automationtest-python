@@ -1,0 +1,73 @@
+INFO     utils.utils:conftest.py:33 Connecting to WebDriver on http://127.0.0.1:4723 for device 'Galaxy S24 Ultra'
+INFO     utils.utils:conftest.py:85 App opened without logging in.
+INFO     utils.common_flows:common_flows.py:28 Generated user info - Phone Number: 09143183260, National Code: 8582354517, Username: boxtest2
+INFO     utils.common_flows:common_flows.py:35 Clicked on 'Allow' button for notification permission.
+INFO     utils.common_flows:common_flows.py:40 کلیک روی دکمه 'ایجاد حساب کاربری'...
+INFO     utils.common_flows:common_flows.py:47 No nCreate Account button displayed, continuing.
+INFO     utils.common_flows:common_flows.py:53 Clicked on 'Allow' button for notification permission.
+INFO     utils.common_flows:common_flows.py:59 کلیک روی دکمه 'باز کردن حساب'...
+INFO     utils.common_flows:common_flows.py:62 دکمه 'باز کردن حساب' کلیک شد.
+INFO     utils.common_flows:common_flows.py:66 انتخاب سرور 'UAT'...
+INFO     utils.common_flows:common_flows.py:69 سرور 'UAT' انتخاب شد.
+INFO     utils.common_flows:common_flows.py:187 کلیک روی دکمه 'شروع'...
+INFO     utils.common_flows:common_flows.py:190 دکمه 'شروع' کلیک شد.
+INFO     utils.common_flows:common_flows.py:199 متن صفحه موافقت با قوانین و شرایط، صحیح است: بازکردن حساب در بلو
+INFO     utils.common_flows:common_flows.py:212 متن صفحه موافقت با قوانین و شرایط، صحیح است: تکمیل مراحل زیر، فقط چند دقیقه زمان نیاز دارد
+INFO     utils.common_flows:common_flows.py:225 متن صفحه موافقت با قوانین و شرایط، صحیح است: ساخت حساب کاربری
+INFO     utils.common_flows:common_flows.py:238 متن صفحه موافقت با قوانین و شرایط، صحیح است: در این مرحله اطلاعات خودتان را وارد می‌کنید و رمز عبور انتخاب می‌کنید.
+INFO     utils.common_flows:common_flows.py:264 متن صفحه موافقت با قوانین و شرایط، صحیح است: شناسایی هویت شما
+INFO     utils.common_flows:common_flows.py:277 متن صفحه موافقت با قوانین و شرایط، صحیح است: بررسی اطلاعات شما توسط بلو
+INFO     utils.common_flows:common_flows.py:290 متن صفحه موافقت با قوانین و شرایط، صحیح است: سفارش رایگان بلوکارت
+INFO     utils.common_flows:common_flows.py:303 متن صفحه موافقت با قوانین و شرایط، صحیح است: قوانین و شرایط را خواندم و قبول می‌کنم
+INFO     utils.common_flows:common_flows.py:316 متن دکمه ادامه در صفحه موافقت با قوانین و شرایط، صحیح است: ادامه
+INFO     utils.common_flows:common_flows.py:326 Initial switch status: OFF
+INFO     utils.common_flows:common_flows.py:329 Switch status after toggle: ON
+INFO     utils.common_flows:common_flows.py:333 کلیک روی دکمه 'تایید'...
+INFO     utils.common_flows:common_flows.py:335 دکمه 'تایید' کلیک شد و به صفحه وارد کردن شماره تلفن هدایت شد.
+INFO     utils.common_flows:common_flows.py:344 متن صفحه شماره تلفن، صحیح است: ساخت حساب کاربری
+INFO     utils.common_flows:common_flows.py:357 متن صفحه شماره تلفن، صحیح است: شماره تلفن همراه خود را وارد کنید
+INFO     utils.common_flows:common_flows.py:370 متن صفحه شماره تلفن، صحیح است: مانند: ۶۷۸۹ ۳۴۵ ۰۹۱۲
+INFO     utils.common_flows:common_flows.py:383 متن صفحه شماره تلفن، صحیح است: در ادامه کد تایید برای شما ارسال می‌شود
+INFO     utils.common_flows:common_flows.py:394 شماره تلفن وارد شد: 09143183260
+INFO     utils.common_flows:common_flows.py:399 دکمه 'بعدی' کلیک شد.
+INFO     utils.common_flows:common_flows.py:409 متن ریفرال صحیح است: مانند:‌ MDMGKP
+INFO     utils.common_flows:common_flows.py:423 متن صفحه ریفرال، صحیح است: کد معرف خود را وارد کنید (اختیاری)
+INFO     utils.common_flows:common_flows.py:432 دکمه 'بعدی' کلیک شد.
+INFO     utils.common_flows:common_flows.py:441 متن صفحه کدملی، صحیح است: کد ملی خود را وارد کنید
+INFO     utils.common_flows:common_flows.py:455 متن کد ملی صحیح است: کد ملی ۱۰ رقمی
+INFO     utils.common_flows:common_flows.py:464 کدملی وارد شد: 8582354517
+INFO     utils.common_flows:common_flows.py:468 دکمه 'بعدی' کلیک شد.
+INFO     utils.common_flows:common_flows.py:477 متن صفحه تاریخ تولد، صحیح است: تاریخ تولد خود را وارد کنید
+INFO     utils.common_flows:common_flows.py:490 متن صفحه تاریخ تولد، صحیح است: ۱۳۸۵/۱۲/۰۸
+INFO     utils.common_flows:common_flows.py:501 سال با موفقیت اسکرول شد.
+INFO     utils.common_flows:common_flows.py:505 دکمه 'بعدی' کلیک شد.
+INFO     utils.common_flows:common_flows.py:514 متن صفحه تاریخ تولد، صحیح است: نام کاربری دلخواه خود را وارد کنید
+INFO     utils.common_flows:common_flows.py:527 متن صفحه تاریخ تولد، صحیح است: مانند: blu
+INFO     utils.common_flows:common_flows.py:538 نام کاربری وارد شد: boxtest2
+INFO     utils.common_flows:common_flows.py:542 دکمه 'بعدی' کلیک شد.
+INFO     utils.common_flows:common_flows.py:551 متن صفحه رمزعبور، صحیح است: رمز عبور امنی برای خود انتخاب کنید
+INFO     utils.common_flows:common_flows.py:564 متن صفحه رمزعبور، صحیح است: رمز عبور
+INFO     utils.common_flows:common_flows.py:577 متن صفحه رمزعبور، صحیح است: شامل حروف کوچک و بزرگ انگلیسی
+INFO     utils.common_flows:common_flows.py:590 متن صفحه رمزعبور، صحیح است: شامل حداقل ۸ کاراکتر
+INFO     utils.common_flows:common_flows.py:603 متن صفحه رمزعبور، صحیح است: شامل عدد
+INFO     utils.common_flows:common_flows.py:616 متن صفحه رمزعبور، صحیح است: رمز عبور شما همان رمز بانکی شماست!
+INFO     utils.common_flows:common_flows.py:627 رمز عبور وارد شد.
+INFO     utils.common_flows:common_flows.py:631 دکمه 'بعدی' کلیک شد.
+INFO     utils.common_flows:common_flows.py:651 دکمه 'ادامه' کلیک شد.
+INFO     utils.config:test_birth_certificate_old_upload.py:125 کلیک بر روی اولین شغل
+INFO     utils.config:test_birth_certificate_old_upload.py:128 اولین شغل از لیست انتخاب شد.
+INFO     utils.config:test_birth_certificate_old_upload.py:129 کلیک روی دکمه تایید...
+INFO     utils.config:test_birth_certificate_old_upload.py:131 دکمه 'ادامه' کلیک شد.
+INFO     utils.config:test_birth_certificate_old_upload.py:134 ویدیو آموزشی در حال پخش است ...
+INFO     utils.config:test_birth_certificate_old_upload.py:137 ویدیو آموزشی پخش و بر روی ادامه کلیک شد.
+INFO     utils.config:test_birth_certificate_old_upload.py:142 مجوز دوربین تأیید شد.
+INFO     utils.config:test_birth_certificate_old_upload.py:144 محوز میکروفون تایید شد.
+INFO     utils.config:test_birth_certificate_old_upload.py:151 دوربین سلفی جهت فیلم برداری باز شد...
+INFO     utils.config:test_birth_certificate_old_upload.py:154 ضبط ویدیو شروع شد.
+INFO     utils.config:test_birth_certificate_old_upload.py:157 ضبط ویدیو متوقف شد.
+INFO     utils.config:test_birth_certificate_old_upload.py:159 ویدیو آپلود شد.
+INFO     utils.config:test_birth_certificate_old_upload.py:164 آپلود ویدیو تایید شد.
+INFO     utils.config:test_birth_certificate_old_upload.py:170 مراحل ایجاد حساب کاربری با موفقیت به پایان رسید.
+INFO     utils.config:test_birth_certificate_old_upload.py:174 انتقال به صفحه ورود و بررسی نام کاربری...
+INFO     utils.config:test_birth_certificate_old_upload.py:182 Username verification successful: boxtest2
+INFO     utils.utils:conftest.py:42 Closing WebDriver connection.

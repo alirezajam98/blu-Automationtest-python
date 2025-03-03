@@ -1,0 +1,25 @@
+INFO     utils.utils:conftest.py:33 Connecting to WebDriver on http://127.0.0.1:4723 for device 'Galaxy S24 Ultra'
+INFO     utils.utils:conftest.py:85 App opened without logging in.
+INFO     utils.common_flows:common_flows.py:28 Generated user info - Phone Number: 09133276616, National Code: 3795765242, Username: corder1
+INFO     utils.common_flows:common_flows.py:35 Clicked on 'Allow' button for notification permission.
+INFO     utils.common_flows:common_flows.py:40 کلیک روی دکمه 'ایجاد حساب کاربری'...
+INFO     utils.common_flows:common_flows.py:45 دکمه 'ایجاد حساب کاربری' کلیک شد.
+INFO     utils.common_flows:common_flows.py:53 Clicked on 'Allow' button for notification permission.
+INFO     utils.common_flows:common_flows.py:59 کلیک روی دکمه 'باز کردن حساب'...
+INFO     utils.common_flows:common_flows.py:62 دکمه 'باز کردن حساب' کلیک شد.
+INFO     utils.common_flows:common_flows.py:66 انتخاب سرور 'UAT'...
+INFO     utils.common_flows:common_flows.py:69 سرور 'UAT' انتخاب شد.
+INFO     utils.common_flows:common_flows.py:187 کلیک روی دکمه 'شروع'...
+INFO     utils.common_flows:common_flows.py:190 دکمه 'شروع' کلیک شد.
+INFO     utils.common_flows:common_flows.py:199 متن صفحه موافقت با قوانین و شرایط، صحیح است: بازکردن حساب در بلو
+INFO     utils.common_flows:common_flows.py:212 متن صفحه موافقت با قوانین و شرایط، صحیح است: تکمیل مراحل زیر، فقط چند دقیقه زمان نیاز دارد
+INFO     utils.common_flows:common_flows.py:225 متن صفحه موافقت با قوانین و شرایط، صحیح است: ساخت حساب کاربری
+INFO     utils.common_flows:common_flows.py:238 متن صفحه موافقت با قوانین و شرایط، صحیح است: در این مرحله اطلاعات خودتان را وارد می‌کنید و رمز عبور انتخاب می‌کنید.
+ERROR    utils.common_flows:common_flows.py:654 خطا رخ داد: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\a.jamshidi\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\lib\commands\find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\a.jamshidi\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\commands\find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (C:\Users\a.jamshidi\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\commands\find.ts:75:12)
+INFO     utils.utils:conftest.py:42 Closing WebDriver connection.

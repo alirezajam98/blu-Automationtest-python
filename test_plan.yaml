@@ -1,4 +1,0 @@
-test_plan:
-  - test: tests/test_login.py
-    devices:
-      - A10s

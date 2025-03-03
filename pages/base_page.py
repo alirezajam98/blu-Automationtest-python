@@ -1,31 +1,85 @@
-from selenium.webdriver.support.ui import WebDriverWait
+from appium.webdriver.common.appiumby import AppiumBy
+from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.actions.pointer_input import PointerInput
+from selenium.webdriver.common.actions.action_builder import ActionBuilder
+
+from utils.config import logger
 
 
 class BasePage:
+    DEFAULT_TIMEOUT = 5
+
     def __init__(self, driver):
         self.driver = driver
 
-    def find_element(self, locator):
-        return self.driver.find_element(*locator)
+    def find_element(self, locator, timeout=None):
+        timeout = timeout or self.DEFAULT_TIMEOUT
 
-    def click(self, locator):
-        WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable(locator)).click()
+        """عمومی برای یافتن المان"""
+        return WebDriverWait(self.driver, timeout).until(EC.presence_of_element_located(locator))
 
-    def enter_text(self, locator, text):
-        WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(locator)).send_keys(text)
+    def click_element(self, locator, timeout=None):
+        timeout = timeout or self.DEFAULT_TIMEOUT
 
-    def get_text(self, locator):
-        return WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(locator)).text
+        """کلیک روی یک المان"""
+        element = self.find_element(locator, timeout)
+        element.click()
 
-    def send_keys(self, locator, text):
-        self.find_element(locator).send_keys(text)
+    def get_element_text(self, locator, attribute="text", timeout=None):
+        element = self.find_element(locator, timeout)
+        return element.get_attribute(attribute)
 
-    def clear(self, locator):
-        self.find_element(locator).clear()
+    def input_text(self, locator, text, timeout=None):
+        timeout = timeout or self.DEFAULT_TIMEOUT
 
-    def get_attribute(self, locator, attribute):
-        return self.find_element(locator).get_attribute(attribute)
+        """وارد کردن متن در یک فیلد"""
+        element = self.find_element(locator, timeout)
+        element.send_keys(text)
 
-    def is_displayed(self, locator):
-        return self.find_element(locator).is_displayed()
+    def clear_text(self, locator, timeout=None):
+        timeout = timeout or self.DEFAULT_TIMEOUT
+
+        """پاک کردن متن فیلد"""
+        element = self.find_element(locator, timeout)
+        element.clear()
+
+    def is_element_enabled(self, locator, timeout=None):
+        timeout = timeout or self.DEFAULT_TIMEOUT
+
+        """بررسی فعال یا غیرفعال بودن یک المان"""
+        element = self.find_element(locator, timeout)
+        return element.is_enabled()
+
+    def is_element_visible(self, locator, timeout=None):
+        timeout = timeout or self.DEFAULT_TIMEOUT
+
+        """بررسی قابل مشاهده بودن المان"""
+        try:
+            WebDriverWait(self.driver, timeout).until(EC.visibility_of_element_located(locator))
+            return True
+        except:
+            return False
+
+    def get_element_attribute(self, locator, attribute, timeout=None):
+        timeout = timeout or self.DEFAULT_TIMEOUT
+
+        """دریافت مقدار یک اتریبیوت از المان"""
+        element = self.find_element(locator, timeout)
+        return element.get_attribute(attribute)
+
+    def scroll_to_element(self, locator):
+        """اسکرول به یک المان خاص"""
+        try:
+            logger.info(f"در حال جستجوی عنصر با متن")
+            self.driver.find_element(*locator)
+        except Exception as e:
+            logger.warning(f"اسکرول برای پیدا کردن عنصر با متن")
+            if locator[0] == AppiumBy.ANDROID_UIAUTOMATOR or locator[0] == '-android uiautomator':
+                self.driver.find_element(
+                    '-android uiautomator',
+                    f'new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView({locator[1]})'
+                )
+            else:
+                raise Exception(f"استراتژی اسکرول پشتیبانی نمی‌شود برای locator: {locator} - خطا: {e}")

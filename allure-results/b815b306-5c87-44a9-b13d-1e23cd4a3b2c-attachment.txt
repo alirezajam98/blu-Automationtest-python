@@ -1,0 +1,13 @@
+INFO     utils.utils:conftest.py:133 No notification permission modal displayed, continuing.
+INFO     utils.utils:conftest.py:137 کلیک روی دکمه 'حساب کاربری دارم'...
+INFO     utils.utils:conftest.py:144 No Create Account button displayed, continuing.
+INFO     utils.utils:conftest.py:155 No notification permission modal displayed, continuing.
+INFO     utils.utils:conftest.py:170 No biometric_page permission modal displayed, continuing.
+INFO     utils.utils:conftest.py:179 Clicked on 'Allow' button for notification permission.
+INFO     utils.utils:conftest.py:192 Dashboard page displayed successfully.
+INFO     utils.config:test_transfer_page.py:42 ورود به تب انتقال...
+INFO     utils.config:test_transfer_page.py:44 وارد تب انتقال شد.
+INFO     utils.config:test_transfer_page.py:47 بستن صفحه انبوردینگ...
+INFO     utils.config:test_transfer_page.py:49 صفحه انبوردینگ بسته شد.
+INFO     utils.config:test_transfer_page.py:52 بررسی متن '۰ ریال'...
+INFO     utils.utils:utils.py:34 متن انتقال: انتقال

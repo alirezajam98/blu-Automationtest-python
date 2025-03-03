@@ -1,0 +1,24 @@
+INFO     utils.utils:conftest.py:133 No notification permission modal displayed, continuing.
+INFO     utils.utils:conftest.py:137 کلیک روی دکمه 'حساب کاربری دارم'...
+INFO     utils.utils:conftest.py:144 No Create Account button displayed, continuing.
+INFO     utils.utils:conftest.py:155 No notification permission modal displayed, continuing.
+INFO     utils.utils:conftest.py:170 No biometric_page permission modal displayed, continuing.
+INFO     utils.utils:conftest.py:179 Clicked on 'Allow' button for notification permission.
+INFO     utils.utils:conftest.py:192 Dashboard page displayed successfully.
+INFO     utils.config:test_qr_page.py:41 ورود به صفحه هاب...
+INFO     utils.config:test_qr_page.py:43 وارد صفحه هاب شد.
+INFO     utils.config:test_qr_page.py:46 اسکرول برای باز کردن صفحه اسکن...
+INFO     utils.config:test_qr_page.py:48 وارد صفحه اسکن شد.
+INFO     utils.config:test_qr_page.py:51 کلیک روی تایید دسترسی این بخش به دوربین...
+INFO     utils.config:test_qr_page.py:54 روی تایید دسترسی دوربین کلیک شد.
+INFO     utils.utils:utils.py:34 متن صفحه qr: اسکن کد QR
+INFO     utils.utils:utils.py:34 متن دکمه کد qr من: کد QR من
+INFO     utils.config:test_qr_page.py:71 روشن کردن فلش...
+INFO     utils.config:test_qr_page.py:73 فلش روشن شد.
+INFO     utils.config:test_qr_page.py:76 خاموش کردن فلش...
+INFO     utils.config:test_qr_page.py:78 فلش خاموش شد.
+INFO     utils.config:test_qr_page.py:81 کلیک روی دکمه کد من...
+INFO     utils.config:test_qr_page.py:83 صفحه کد QR من باز شد.
+INFO     utils.utils:utils.py:34 متن توضیح صفحه کد qr من: برای دریافت پول، کد QR خود را نمایش دهید
+INFO     utils.utils:utils.py:34 متن افزودن میلغ: افزودن مبلغ
+INFO     utils.utils:utils.py:34 متن ارسال/ذخیره: ارسال / ذخیره

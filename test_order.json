@@ -1,0 +1,352 @@
+{
+    "devices": {
+        "Galaxy A11": [
+            {
+                "name": "test_setting_page",
+                "file": "tests/settings/test_settings_page.py",
+                "enabled": false
+            }
+        ],
+        "Galaxy A7": [
+            {
+                "name": "test_box_page",
+                "file": "tests/box/test_box.py",
+                "enabled": false
+            }
+        ],
+        "Galaxy S24 Ultra": [
+            {
+                "name": "test_dashboard_page",
+                "file": "tests/dashboard/test_dashboard_page.py",
+                "enabled": false
+            },
+            {
+                "name": "test_box_page",
+                "file": "tests/dashboard/box/test_box.py",
+                "enabled": false
+            },
+            {
+                "name": "test_create_box",
+                "file": "tests/dashboard/box/test_create_box.py",
+                "enabled": false
+            },
+            {
+                "name": "test_check_first_box",
+                "file": "tests/box/test_first_box_profile.py",
+                "enabled": false
+            },
+            {
+                "name": "test_delete_first_box",
+                "file": "tests/dashboard/box/test_delete_box.py",
+                "enabled": false
+            },
+            {
+                "name": "test_national_ID_card_upload",
+                "file": "tests/kyc/test_national_ID_card_upload.py",
+                "enabled": false
+            },
+            {
+                "name": "test_open_setting_page",
+                "file": "tests/settings/test_settings_page.py",
+                "enabled": false
+            },
+            {
+                "name": "test_kyc",
+                "file": "tests/kyc/test_create_account.py",
+                "enabled": false
+            },
+            {
+                "name": "test_national_ID_card_scan",
+                "file": "tests/kyc/test_national_ID_card_scan.py",
+                "enabled": false
+            },
+            {
+                "name": "test_birth_certificate_old_upload",
+                "file": "tests/kyc/test_birth_certificate_old_upload.py",
+                "enabled": false
+            },
+            {
+                "name": "test_card_page",
+                "file": "tests/card/test_card_page.py",
+                "enabled": false
+            },
+            {
+                "name": "test_card_first_order",
+                "file": "tests/card/test_card_order_after_kyc.py",
+                "enabled": false
+            },
+            {
+                "name": "test_birth_certificate_new_upload",
+                "file": "tests/kyc/test_birth_certificate_new_upload.py",
+                "enabled": false
+            },
+            {
+                "name": "test_dynamic_pin",
+                "file": "tests/card/test_dynamic_pin.py",
+                "enabled": false
+            },
+            {
+                "name": "test_share_card_number",
+                "file": "tests/card/test_share_card_number.py",
+                "enabled": false
+            },
+            {
+                "name": "test_temporary_blocking",
+                "file": "tests/card/test_temporary_blocking.py",
+                "enabled": false
+            },
+            {
+                "name": "test_change_pin1",
+                "file": "tests/card/test_change_pin1.py",
+                "enabled": false
+            },
+            {
+                "name": "test_forgot_pin1",
+                "file": "tests/card/test_change_pin1_forget_pin.py",
+                "enabled": false
+            },
+            {
+                "name": "test_change_blu_card_same_pan",
+                "file": "tests/card/test_change_blu_card_same_pan.py",
+                "enabled": false
+            },
+            {
+                "name": "test_settings_page",
+                "file": "tests/settings/test_settings_page.py",
+                "enabled": false
+            },
+            {
+                "name": "test_account_page",
+                "file": "tests/settings/account/test_account_page.py",
+                "enabled": false
+            },
+            {
+                "name": "test_change_phone_number",
+                "file": "tests/settings/account/test_change_phone_number.py",
+                "enabled": false
+            },
+            {
+                "name": "test_change_job",
+                "file": "tests/settings/account/test_change_job.py",
+                "enabled": false
+            },
+            {
+                "name": "test_change_address",
+                "file": "tests/settings/account/test_change_address.py",
+                "enabled": false
+            },
+            {
+                "name": "test_security_privacy",
+                "file": "tests/settings/security_privacy/test_security_privacy.py",
+                "enabled": false
+            },
+            {
+                "name": "test_change_password",
+                "file": "tests/settings/security_privacy/test_change_password.py",
+                "enabled": false
+            },
+            {
+                "name": "test_transaction_pin",
+                "file": "tests/settings/security_privacy/test_transaction_pin.py",
+                "enabled": false
+            },
+            {
+                "name": "test_transfer_to_contact",
+                "file": "tests/settings/security_privacy/test_transfer_to_contact.py",
+                "enabled": false
+            },
+            {
+                "name": "test_logout",
+                "file": "tests/settings/security_privacy/test_logout.py",
+                "enabled": false
+            },
+            {
+                "name": "test_hub_page",
+                "file": "tests/hub/test_hub_page.py",
+                "enabled": false
+            },
+            {
+                "name": "test_QR_page",
+                "file": "tests/hub/test_qr_page.py",
+                "enabled": false
+            },
+            {
+                "name": "test_transfer_page",
+                "file": "tests/transfer/test_transfer_page.py",
+                "enabled": false
+            },
+            {
+                "name": "test_irancell_charge",
+                "file": "tests/hub/charge/test_irancell_charge.py",
+                "enabled": false
+            },
+            {
+                "name": "test_birth_certificate_old_upload_copy1",
+                "file": "tests/kyc/test_birth_certificate_old_upload.py",
+                "enabled": true
+            },
+            {
+                "name": "test_birth_certificate_old_upload_copy2",
+                "file": "tests/kyc/test_birth_certificate_old_upload.py",
+                "enabled": true
+            },
+            {
+                "name": "test_birth_certificate_old_upload_copy3",
+                "file": "tests/kyc/test_birth_certificate_old_upload.py",
+                "enabled": true
+            },
+            {
+                "name": "test_birth_certificate_old_upload_copy4",
+                "file": "tests/kyc/test_birth_certificate_old_upload.py",
+                "enabled": true
+            },
+            {
+                "name": "test_birth_certificate_old_upload_copy5",
+                "file": "tests/kyc/test_birth_certificate_old_upload.py",
+                "enabled": true
+            },
+            {
+                "name": "test_birth_certificate_old_upload_copy6",
+                "file": "tests/kyc/test_birth_certificate_old_upload.py",
+                "enabled": true
+            },
+            {
+                "name": "test_birth_certificate_old_upload_copy7",
+                "file": "tests/kyc/test_birth_certificate_old_upload.py",
+                "enabled": true
+            },
+            {
+                "name": "test_birth_certificate_old_upload_copy8",
+                "file": "tests/kyc/test_birth_certificate_old_upload.py",
+                "enabled": true
+            },
+            {
+                "name": "test_birth_certificate_old_upload_copy9",
+                "file": "tests/kyc/test_birth_certificate_old_upload.py",
+                "enabled": true
+            },
+            {
+                "name": "test_birth_certificate_old_upload_copy10",
+                "file": "tests/kyc/test_birth_certificate_old_upload.py",
+                "enabled": true
+            },
+            {
+                "name": "test_birth_certificate_old_upload_copy11",
+                "file": "tests/kyc/test_birth_certificate_old_upload.py",
+                "enabled": true
+            },
+            {
+                "name": "test_birth_certificate_old_upload_copy12",
+                "file": "tests/kyc/test_birth_certificate_old_upload.py",
+                "enabled": true
+            },
+            {
+                "name": "test_birth_certificate_old_upload_copy13",
+                "file": "tests/kyc/test_birth_certificate_old_upload.py",
+                "enabled": true
+            },
+            {
+                "name": "test_birth_certificate_old_upload_copy14",
+                "file": "tests/kyc/test_birth_certificate_old_upload.py",
+                "enabled": true
+            },
+            {
+                "name": "test_birth_certificate_old_upload_copy15",
+                "file": "tests/kyc/test_birth_certificate_old_upload.py",
+                "enabled": true
+            },
+            {
+                "name": "test_birth_certificate_old_upload_copy16",
+                "file": "tests/kyc/test_birth_certificate_old_upload.py",
+                "enabled": true
+            },
+            {
+                "name": "test_birth_certificate_old_upload_copy17",
+                "file": "tests/kyc/test_birth_certificate_old_upload.py",
+                "enabled": true
+            },
+            {
+                "name": "test_birth_certificate_old_upload_copy18",
+                "file": "tests/kyc/test_birth_certificate_old_upload.py",
+                "enabled": true
+            },
+            {
+                "name": "test_birth_certificate_old_upload_copy19",
+                "file": "tests/kyc/test_birth_certificate_old_upload.py",
+                "enabled": true
+            },
+            {
+                "name": "test_birth_certificate_old_upload_copy20",
+                "file": "tests/kyc/test_birth_certificate_old_upload.py",
+                "enabled": true
+            },
+            {
+                "name": "test_birth_certificate_old_upload_copy21",
+                "file": "tests/kyc/test_birth_certificate_old_upload.py",
+                "enabled": true
+            },
+            {
+                "name": "test_birth_certificate_old_upload_copy22",
+                "file": "tests/kyc/test_birth_certificate_old_upload.py",
+                "enabled": true
+            },
+            {
+                "name": "test_birth_certificate_old_upload_copy23",
+                "file": "tests/kyc/test_birth_certificate_old_upload.py",
+                "enabled": true
+            },
+            {
+                "name": "test_birth_certificate_old_upload_copy24",
+                "file": "tests/kyc/test_birth_certificate_old_upload.py",
+                "enabled": true
+            },
+            {
+                "name": "test_birth_certificate_old_upload_copy25",
+                "file": "tests/kyc/test_birth_certificate_old_upload.py",
+                "enabled": true
+            },
+            {
+                "name": "test_birth_certificate_old_upload_copy26",
+                "file": "tests/kyc/test_birth_certificate_old_upload.py",
+                "enabled": true
+            },
+            {
+                "name": "test_birth_certificate_old_upload_copy27",
+                "file": "tests/kyc/test_birth_certificate_old_upload.py",
+                "enabled": false
+            },
+            {
+                "name": "test_birth_certificate_old_upload_copy28",
+                "file": "tests/kyc/test_birth_certificate_old_upload.py",
+                "enabled": false
+            },
+            {
+                "name": "test_birth_certificate_old_upload_copy29",
+                "file": "tests/kyc/test_birth_certificate_old_upload.py",
+                "enabled": false
+            },
+            {
+                "name": "test_birth_certificate_old_upload_copy30",
+                "file": "tests/kyc/test_birth_certificate_old_upload.py",
+                "enabled": false
+            },
+            {
+                "name": "test_birth_certificate_old_upload_copy31",
+                "file": "tests/kyc/test_birth_certificate_old_upload.py",
+                "enabled": false
+            },
+            {
+                "name": "test_birth_certificate_old_upload_copy32",
+                "file": "tests/kyc/test_birth_certificate_old_upload.py",
+                "enabled": false
+            }
+        ],
+        "pixel 8": [
+            {
+                "name": "test_forgot_pin1",
+                "file": "tests/card/test_change_pin1_forget_pin.py",
+                "enabled": false
+            }
+        ]
+    }
+}

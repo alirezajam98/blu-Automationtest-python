@@ -1,0 +1,21 @@
+INFO:utils.utils:No notification permission modal displayed, continuing.
+INFO:utils.utils:کلیک روی دکمه 'حساب کاربری دارم'...
+INFO:utils.utils:No Create Account button displayed, continuing.
+INFO:utils.utils:No notification permission modal displayed, continuing.
+INFO:utils.utils:No biometric_page permission modal displayed, continuing.
+INFO:utils.utils:Clicked on 'Allow' button for notification permission.
+INFO:utils.utils:Dashboard page displayed successfully.
+INFO:utils.config:ورود به صفحه هاب...
+INFO:utils.config:وارد صفحه هاب شد.
+INFO:utils.utils:عنوان QR: انتقال و دریافت با کد QR
+INFO:utils.utils:متن گزینه شارژ: شارژ
+INFO:utils.utils:متن گزینه اینترنت: اینترنت
+INFO:utils.utils:متن گزینه قبض: قبض
+INFO:utils.utils:متن گزینه برگشت پول: برگشت پول
+INFO:utils.utils:متن گزینه وام: وام
+INFO:utils.utils:متن گزینه چک: چک صیادی
+INFO:utils.utils:متن گزینه دنگ: دُنگ‌
+INFO:utils.utils:متن گزینه پرداخت خودکار: پرداخت خودکار
+INFO:utils.utils:متن گزینه خدمات خودرو: خدمات خودرو
+INFO:utils.utils:متن گزینه دعوت دوستان: دعوت دوستان
+INFO:utils.utils:متن گزینه جونیور: جونیور

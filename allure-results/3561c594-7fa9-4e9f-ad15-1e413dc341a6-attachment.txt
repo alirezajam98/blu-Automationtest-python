@@ -1,0 +1,47 @@
+INFO     utils.utils:conftest.py:33 Connecting to WebDriver on http://127.0.0.1:4723 for device 'Galaxy S24 Ultra'
+INFO     utils.utils:conftest.py:85 App opened without logging in.
+INFO     utils.common_flows:common_flows.py:28 Generated user info - Phone Number: 09137263203, National Code: 4405848955, Username: boxtest16
+INFO     utils.common_flows:common_flows.py:35 Clicked on 'Allow' button for notification permission.
+INFO     utils.common_flows:common_flows.py:40 کلیک روی دکمه 'ایجاد حساب کاربری'...
+INFO     utils.common_flows:common_flows.py:47 No nCreate Account button displayed, continuing.
+INFO     utils.common_flows:common_flows.py:53 Clicked on 'Allow' button for notification permission.
+INFO     utils.common_flows:common_flows.py:59 کلیک روی دکمه 'باز کردن حساب'...
+INFO     utils.common_flows:common_flows.py:62 دکمه 'باز کردن حساب' کلیک شد.
+INFO     utils.common_flows:common_flows.py:66 انتخاب سرور 'UAT'...
+INFO     utils.common_flows:common_flows.py:69 سرور 'UAT' انتخاب شد.
+INFO     utils.common_flows:common_flows.py:187 کلیک روی دکمه 'شروع'...
+INFO     utils.common_flows:common_flows.py:190 دکمه 'شروع' کلیک شد.
+INFO     utils.common_flows:common_flows.py:199 متن صفحه موافقت با قوانین و شرایط، صحیح است: بازکردن حساب در بلو
+INFO     utils.common_flows:common_flows.py:212 متن صفحه موافقت با قوانین و شرایط، صحیح است: تکمیل مراحل زیر، فقط چند دقیقه زمان نیاز دارد
+INFO     utils.common_flows:common_flows.py:225 متن صفحه موافقت با قوانین و شرایط، صحیح است: ساخت حساب کاربری
+INFO     utils.common_flows:common_flows.py:238 متن صفحه موافقت با قوانین و شرایط، صحیح است: در این مرحله اطلاعات خودتان را وارد می‌کنید و رمز عبور انتخاب می‌کنید.
+INFO     utils.common_flows:common_flows.py:264 متن صفحه موافقت با قوانین و شرایط، صحیح است: شناسایی هویت شما
+INFO     utils.common_flows:common_flows.py:277 متن صفحه موافقت با قوانین و شرایط، صحیح است: بررسی اطلاعات شما توسط بلو
+INFO     utils.common_flows:common_flows.py:290 متن صفحه موافقت با قوانین و شرایط، صحیح است: سفارش رایگان بلوکارت
+INFO     utils.common_flows:common_flows.py:303 متن صفحه موافقت با قوانین و شرایط، صحیح است: قوانین و شرایط را خواندم و قبول می‌کنم
+INFO     utils.common_flows:common_flows.py:316 متن دکمه ادامه در صفحه موافقت با قوانین و شرایط، صحیح است: ادامه
+INFO     utils.common_flows:common_flows.py:326 Initial switch status: OFF
+INFO     utils.common_flows:common_flows.py:329 Switch status after toggle: ON
+INFO     utils.common_flows:common_flows.py:333 کلیک روی دکمه 'تایید'...
+INFO     utils.common_flows:common_flows.py:335 دکمه 'تایید' کلیک شد و به صفحه وارد کردن شماره تلفن هدایت شد.
+INFO     utils.common_flows:common_flows.py:344 متن صفحه شماره تلفن، صحیح است: ساخت حساب کاربری
+INFO     utils.common_flows:common_flows.py:357 متن صفحه شماره تلفن، صحیح است: شماره تلفن همراه خود را وارد کنید
+INFO     utils.common_flows:common_flows.py:370 متن صفحه شماره تلفن، صحیح است: مانند: ۶۷۸۹ ۳۴۵ ۰۹۱۲
+INFO     utils.common_flows:common_flows.py:383 متن صفحه شماره تلفن، صحیح است: در ادامه کد تایید برای شما ارسال می‌شود
+INFO     utils.common_flows:common_flows.py:394 شماره تلفن وارد شد: 09137263203
+INFO     utils.common_flows:common_flows.py:399 دکمه 'بعدی' کلیک شد.
+INFO     utils.common_flows:common_flows.py:409 متن ریفرال صحیح است: مانند:‌ MDMGKP
+INFO     utils.common_flows:common_flows.py:423 متن صفحه ریفرال، صحیح است: کد معرف خود را وارد کنید (اختیاری)
+INFO     utils.common_flows:common_flows.py:432 دکمه 'بعدی' کلیک شد.
+INFO     utils.common_flows:common_flows.py:441 متن صفحه کدملی، صحیح است: کد ملی خود را وارد کنید
+INFO     utils.common_flows:common_flows.py:455 متن کد ملی صحیح است: کد ملی ۱۰ رقمی
+INFO     utils.common_flows:common_flows.py:464 کدملی وارد شد: 4405848955
+INFO     utils.common_flows:common_flows.py:468 دکمه 'بعدی' کلیک شد.
+ERROR    utils.common_flows:common_flows.py:654 خطا رخ داد: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\a.jamshidi\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\lib\commands\find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\a.jamshidi\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\commands\find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (C:\Users\a.jamshidi\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\commands\find.ts:75:12)
+INFO     utils.utils:conftest.py:42 Closing WebDriver connection.

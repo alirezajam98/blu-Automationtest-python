@@ -1,0 +1,2 @@
+Expected: انتقال و دریافت با کد QR
+Actual: None

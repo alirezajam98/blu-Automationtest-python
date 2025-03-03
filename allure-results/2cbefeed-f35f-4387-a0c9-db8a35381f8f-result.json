@@ -1,0 +1,1 @@
+{"name": "test_transfer_page[andauto1]", "status": "skipped", "parameters": [{"name": "login_and_dashboard", "value": "'andauto1'"}], "start": 1740399036199, "stop": 1740399036199, "uuid": "4655a205-6b99-47f5-bced-28f0f70885fb", "testCaseId": "7336ce3a8718df1cb6a3183424b97ab3", "fullName": "tests.transfer.test_transfer_page#test_transfer_page"}

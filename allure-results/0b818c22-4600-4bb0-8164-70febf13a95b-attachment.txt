@@ -1,0 +1,21 @@
+INFO     utils.utils:conftest.py:133 No notification permission modal displayed, continuing.
+INFO     utils.utils:conftest.py:137 کلیک روی دکمه 'حساب کاربری دارم'...
+INFO     utils.utils:conftest.py:144 No Create Account button displayed, continuing.
+INFO     utils.utils:conftest.py:155 No notification permission modal displayed, continuing.
+INFO     utils.utils:conftest.py:170 No biometric_page permission modal displayed, continuing.
+INFO     utils.utils:conftest.py:179 Clicked on 'Allow' button for notification permission.
+INFO     utils.utils:conftest.py:192 Dashboard page displayed successfully.
+INFO     utils.config:test_hub_page.py:39 ورود به صفحه هاب...
+INFO     utils.config:test_hub_page.py:41 وارد صفحه هاب شد.
+ERROR    utils.utils:utils.py:36 عنوان QR - Expected 'انتقال و دریافت با کد QR', but got 'None'
+INFO     utils.utils:utils.py:34 متن گزینه شارژ: شارژ
+INFO     utils.utils:utils.py:34 متن گزینه اینترنت: اینترنت
+INFO     utils.utils:utils.py:34 متن گزینه قبض: قبض
+INFO     utils.utils:utils.py:34 متن گزینه برگشت پول: برگشت پول
+INFO     utils.utils:utils.py:34 متن گزینه وام: وام
+INFO     utils.utils:utils.py:34 متن گزینه چک: چک صیادی
+INFO     utils.utils:utils.py:34 متن گزینه دنگ: دُنگ‌
+INFO     utils.utils:utils.py:34 متن گزینه پرداخت خودکار: پرداخت خودکار
+INFO     utils.utils:utils.py:34 متن گزینه خدمات خودرو: خدمات خودرو
+INFO     utils.utils:utils.py:34 متن گزینه دعوت دوستان: دعوت دوستان
+INFO     utils.utils:utils.py:34 متن گزینه جونیور: جونیور

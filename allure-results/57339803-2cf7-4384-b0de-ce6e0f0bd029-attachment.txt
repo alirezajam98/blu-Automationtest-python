@@ -1,0 +1,17 @@
+INFO:utils.utils:No notification permission modal displayed, continuing.
+INFO:utils.utils:کلیک روی دکمه 'حساب کاربری دارم'...
+INFO:utils.utils:No Create Account button displayed, continuing.
+INFO:utils.utils:No notification permission modal displayed, continuing.
+INFO:utils.utils:No biometric_page permission modal displayed, continuing.
+INFO:utils.utils:Clicked on 'Allow' button for notification permission.
+INFO:utils.utils:Dashboard page displayed successfully.
+INFO:utils.config:ورود به تب کارت...
+INFO:utils.config:وارد تب کارت شد.
+INFO:utils.config:بررسی متن دکمه تنظیمات امنیتی...
+ERROR:utils.config:خطا رخ داد: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\a.jamshidi\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\lib\commands\find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\a.jamshidi\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\commands\find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (C:\Users\a.jamshidi\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\commands\find.ts:75:12)

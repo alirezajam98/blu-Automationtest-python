@@ -1,0 +1,74 @@
+INFO     utils.utils:conftest.py:133 No notification permission modal displayed, continuing.
+INFO     utils.utils:conftest.py:137 کلیک روی دکمه 'حساب کاربری دارم'...
+INFO     utils.utils:conftest.py:144 No Create Account button displayed, continuing.
+INFO     utils.utils:conftest.py:155 No notification permission modal displayed, continuing.
+INFO     utils.utils:conftest.py:170 No biometric_page permission modal displayed, continuing.
+INFO     utils.utils:conftest.py:179 Clicked on 'Allow' button for notification permission.
+INFO     utils.utils:conftest.py:192 Dashboard page displayed successfully.
+INFO     utils.config:test_qr_page.py:41 ورود به صفحه هاب...
+INFO     utils.config:test_qr_page.py:43 وارد صفحه هاب شد.
+INFO     utils.config:test_qr_page.py:46 اسکرول برای باز کردن صفحه اسکن...
+INFO     utils.config:test_qr_page.py:48 وارد صفحه اسکن شد.
+INFO     utils.config:test_qr_page.py:51 کلیک روی تایید دسترسی این بخش به دوربین...
+INFO     utils.config:test_qr_page.py:54 روی تایید دسترسی دوربین کلیک شد.
+INFO     utils.utils:utils.py:34 متن صفحه qr: اسکن کد QR
+INFO     utils.utils:utils.py:34 متن دکمه کد qr من: کد QR من
+INFO     utils.config:test_qr_page.py:71 روشن کردن فلش...
+INFO     utils.config:test_qr_page.py:73 فلش روشن شد.
+INFO     utils.config:test_qr_page.py:76 خاموش کردن فلش...
+INFO     utils.config:test_qr_page.py:78 فلش خاموش شد.
+INFO     utils.config:test_qr_page.py:81 کلیک روی دکمه کد من...
+INFO     utils.config:test_qr_page.py:83 صفحه کد QR من باز شد.
+INFO     utils.utils:utils.py:34 متن توضیح صفحه کد qr من: برای دریافت پول، کد QR خود را نمایش دهید
+INFO     utils.utils:utils.py:34 متن افزودن میلغ: افزودن مبلغ
+INFO     utils.utils:utils.py:34 متن ارسال/ذخیره: ارسال / ذخیره
+INFO     utils.config:test_qr_page.py:108 کلیک روی دکمه افزودن مبلغ...
+INFO     utils.config:test_qr_page.py:110 صفحه افزودن مبلغ باز شد.
+ERROR    utils.config:test_qr_page.py:145 خطا در بررسی متن‌های  صفحه اسکن: Message: Could not parse selector expression `new UiSelector().com.samanpr.blu.dev:id/titleTextView`: No opening parenthesis after method name at position 17; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+io.appium.uiautomator2.common.exceptions.UiSelectorSyntaxException: Could not parse selector expression `new UiSelector().com.samanpr.blu.dev:id/titleTextView`: No opening parenthesis after method name at position 17
+	at io.appium.uiautomator2.utils.UiExpressionParser.consumeMethodName(UiExpressionParser.java:97)
+	at io.appium.uiautomator2.utils.UiExpressionParser.consumeMethodCall(UiExpressionParser.java:180)
+	at io.appium.uiautomator2.utils.UiSelectorParser.parse(UiSelectorParser.java:53)
+	at io.appium.uiautomator2.utils.UiAutomatorParser.consumeStatement(UiAutomatorParser.java:94)
+	at io.appium.uiautomator2.utils.UiAutomatorParser.parse(UiAutomatorParser.java:47)
+	at io.appium.uiautomator2.utils.ElementLocationHelpers.toSelectors(ElementLocationHelpers.java:135)
+	at io.appium.uiautomator2.utils.ElementLocationHelpers.toSelector(ElementLocationHelpers.java:131)
+	at io.appium.uiautomator2.utils.ByUiAutomatorFinder.findOne(ByUiAutomatorFinder.java:54)
+	at io.appium.uiautomator2.utils.ByUiAutomatorFinder.findOne(ByUiAutomatorFinder.java:49)
+	at io.appium.uiautomator2.utils.ElementLocationHelpers.findElement(ElementLocationHelpers.java:160)
+	at io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:60)
+	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)
+	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:259)
+	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:253)
+	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:1012)

@@ -1,6 +1,8 @@
-selenium==4.1.0
-#pip install selenium==4.1.0
-appium-python-client==2.7.1
-#pip install appium-python-client==2.7.1
-pytest==6.2.5
-#pip install pytest==6.2.5
+pytest==8.3.3
+allure-pytest==2.13.5
+pytest-html==4.1.1
+Appium-Python-Client~=4.2.0
+selenium~=4.25.0
+PyYAML~=6.0.2
+pytest-xdist==3.6.1
+jdatetime

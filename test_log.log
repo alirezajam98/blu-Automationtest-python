@@ -1,5 +1,79 @@
-2024-07-17 17:30:57,773 - conftest - INFO - Setting up environment
-2024-07-17 17:30:58,009 - conftest - INFO - Tearing down environment
-2024-07-17 17:30:58,009 - conftest - INFO - Tearing down environment
-2024-07-20 12:30:50,642 - conftest - INFO - Screenshot saved to screenshots\error_R9HN70VWB5J.png
-2024-07-20 12:32:39,901 - conftest - INFO - Screenshot saved to screenshots\error_R9HN70VWB5J.png
+2024-12-24 16:03:53,056 - __main__ - INFO - Found 6 test(s) for device 'Galaxy S24 Ultra':
+tests/kyc/test_national_ID_card_upload.py
+tests/kyc/test_national_ID_card_scan.py
+tests/kyc/test_birth_certificate_old_upload.py
+tests/kyc/test_birth_certificate_new_upload.py
+tests/card/test_change_pin1.py
+tests/card/test_change_pin1_forget_pin.py
+2024-12-24 16:04:27,950 - utils.utils - INFO - Connecting to WebDriver on http://127.0.0.1:4723 for device 'Galaxy S24 Ultra'
+2024-12-24 16:04:30,007 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020A246E5F40>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session
+2024-12-24 16:04:32,024 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020A2471A3D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session
+2024-12-24 16:04:34,074 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020A2471AE20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session
+2024-12-24 16:04:36,098 - utils.utils - ERROR - Failed to connect to WebDriver: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020A2473A0A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-12-24 16:04:37,102 - utils.utils - INFO - Connecting to WebDriver on http://127.0.0.1:4723 for device 'Galaxy S24 Ultra'
+2024-12-24 16:04:39,128 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020A254AE250>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session
+2024-12-24 16:04:50,517 - utils.utils - INFO - App opened without logging in.
+2024-12-24 16:04:50,523 - utils.common_flows - INFO - Generated user info - Phone Number: 09183050334, National Code: 3043697741, Username: siisi5
+2024-12-24 16:04:53,632 - utils.common_flows - INFO - Clicked on 'Allow' button for notification permission.
+2024-12-24 16:04:54,881 - utils.common_flows - INFO - Clicked on 'Allow' button for notification permission.
+2024-12-24 16:05:01,758 - utils.common_flows - INFO - Initial switch status: OFF
+2024-12-24 16:05:02,768 - utils.common_flows - INFO - Switch status after toggle: ON
+2024-12-24 16:07:29,729 - utils.config - INFO - Username verification successful: siisi5
+2024-12-24 16:07:29,732 - utils.utils - INFO - Closing WebDriver connection.
+2024-12-24 16:07:30,673 - utils.utils - INFO - Connecting to WebDriver on http://127.0.0.1:4723 for device 'Galaxy S24 Ultra'
+2024-12-24 16:07:38,156 - utils.utils - INFO - App opened without logging in.
+2024-12-24 16:07:38,162 - utils.common_flows - INFO - Generated user info - Phone Number: 09176871710, National Code: 7638026446, Username: siisi6
+2024-12-24 16:07:41,665 - utils.common_flows - INFO - Clicked on 'Allow' button for notification permission.
+2024-12-24 16:07:42,815 - utils.common_flows - INFO - Clicked on 'Allow' button for notification permission.
+2024-12-24 16:07:49,071 - utils.common_flows - INFO - Initial switch status: OFF
+2024-12-24 16:07:50,076 - utils.common_flows - INFO - Switch status after toggle: ON
+2024-12-24 16:08:36,147 - utils.utils - INFO - Closing WebDriver connection.
+2024-12-24 16:08:36,594 - utils.utils - INFO - Connecting to WebDriver on http://127.0.0.1:4723 for device 'Galaxy S24 Ultra'
+2024-12-24 16:08:40,938 - utils.utils - INFO - App opened without logging in.
+2024-12-24 16:08:40,940 - utils.common_flows - INFO - Generated user info - Phone Number: 09113202610, National Code: 8516924823, Username: siisi7
+2024-12-24 16:08:44,384 - utils.common_flows - INFO - Clicked on 'Allow' button for notification permission.
+2024-12-24 16:08:45,272 - utils.common_flows - INFO - Clicked on 'Allow' button for notification permission.
+2024-12-24 16:08:51,481 - utils.common_flows - INFO - Initial switch status: OFF
+2024-12-24 16:08:52,460 - utils.common_flows - INFO - Switch status after toggle: ON
+2024-12-24 16:09:37,891 - utils.utils - INFO - Closing WebDriver connection.
+2024-12-24 16:10:31,333 - utils.utils - INFO - No notification permission modal displayed, continuing.
+2024-12-24 16:10:33,736 - utils.utils - INFO - No nCreate Account button displayed, continuing.
+2024-12-24 16:10:36,059 - utils.utils - INFO - No notification permission modal displayed, continuing.
+2024-12-24 16:10:59,453 - utils.utils - INFO - No biometric_page permission modal displayed, continuing.
+2024-12-24 16:10:59,686 - utils.utils - INFO - Clicked on 'Allow' button for notification permission.
+2024-12-24 16:11:00,412 - utils.utils - INFO - Dashboard page displayed successfully.
+2024-12-24 16:12:05,618 - utils.utils - INFO - No notification permission modal displayed, continuing.
+2024-12-24 16:12:07,894 - utils.utils - INFO - No nCreate Account button displayed, continuing.
+2024-12-24 16:12:10,279 - utils.utils - INFO - No notification permission modal displayed, continuing.
+2024-12-24 16:12:33,749 - utils.utils - INFO - No biometric_page permission modal displayed, continuing.
+2024-12-24 16:12:33,916 - utils.utils - INFO - Clicked on 'Allow' button for notification permission.
+2024-12-24 16:12:34,564 - utils.utils - INFO - Dashboard page displayed successfully.
+2024-12-24 16:22:28,212 - __main__ - INFO - Found 1 test(s) for device 'Galaxy S24 Ultra':
+tests/card/test_dynamic_pin.py
+2024-12-24 16:23:57,852 - utils.utils - INFO - No notification permission modal displayed, continuing.
+2024-12-24 16:24:00,266 - utils.utils - INFO - No nCreate Account button displayed, continuing.
+2024-12-24 16:24:02,759 - utils.utils - INFO - No notification permission modal displayed, continuing.
+2024-12-24 16:24:26,258 - utils.utils - INFO - No biometric_page permission modal displayed, continuing.
+2024-12-24 16:24:26,586 - utils.utils - INFO - Clicked on 'Allow' button for notification permission.
+2024-12-24 16:24:27,240 - utils.utils - INFO - Dashboard page displayed successfully.
+2024-12-24 16:35:56,477 - __main__ - INFO - Found 1 test(s) for device 'Galaxy S24 Ultra':
+tests/card/test_dynamic_pin.py
+2024-12-24 16:37:21,340 - utils.utils - INFO - No notification permission modal displayed, continuing.
+2024-12-24 16:37:23,779 - utils.utils - INFO - No nCreate Account button displayed, continuing.
+2024-12-24 16:37:26,232 - utils.utils - INFO - No notification permission modal displayed, continuing.
+2024-12-24 16:37:49,308 - utils.utils - INFO - No biometric_page permission modal displayed, continuing.
+2024-12-24 16:37:49,520 - utils.utils - INFO - Clicked on 'Allow' button for notification permission.
+2024-12-24 16:37:50,166 - utils.utils - INFO - Dashboard page displayed successfully.
+2024-12-24 16:38:12,346 - __main__ - INFO - Found 2 test(s) for device 'pixel 8':
+tests/card/test_change_pin1.py
+tests/card/test_change_pin1_forget_pin.py
+2024-12-24 16:41:51,884 - utils.utils - INFO - No notification permission modal displayed, continuing.
+2024-12-24 16:41:54,436 - utils.utils - INFO - No nCreate Account button displayed, continuing.
+2024-12-24 16:41:56,853 - utils.utils - INFO - No notification permission modal displayed, continuing.
+2024-12-24 16:42:20,398 - utils.utils - INFO - No biometric_page permission modal displayed, continuing.
+2024-12-24 16:42:20,685 - utils.utils - INFO - Clicked on 'Allow' button for notification permission.
+2024-12-24 16:42:21,288 - utils.utils - INFO - Dashboard page displayed successfully.
+2024-12-24 16:42:22,780 - utils.config - INFO - Initial switch status: OFF
+2024-12-24 16:42:22,781 - utils.config - INFO - Switch is already OFF. No action needed.
+2024-12-24 16:42:22,938 - utils.config - INFO - Initial switch status: OFF
+2024-12-24 16:42:25,044 - utils.config - INFO - Switch status after toggle: ON
